@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="formulario">
+        <h2>Formulario de Registro</h2>
+
+        <label>Nombre o Razón Social</label>
+        <input type="text" required>
+
+        <label>Apellido</label>
+        <input type="text">
+
+        <label>Tipo de Documento</label>
+        <select required>
+            <option>-- Seleccione --</option>
+            <option>Cédula de Ciudadanía</option>
+            <option>Pasaporte</option>
+            <option>NIT</option>
+            <option>Cédula de Extranjería</option>
+        </select>
+
+        <label>Número de Identificación</label>
+        <input type="number" required>
+
+        <label>Tipo de Sociedad</label>
+        <select required>
+            <option>-- Seleccione --</option>
+            <option>Persona Natural</option>
+            <option>Persona Juridica</option>
+        </select>
+
+        <label>Sector</label>
+        <div class="checkboxes">
+            <label><input type="checkbox" required> Servicios</label>
+            <label><input type="checkbox" required> Comercio</label>
+            <label><input type="checkbox" required> Industria</label>
+        </div>
+
+        <label>Tipo de Empresa</label>
+        <select required>
+            <option>-- Seleccione --</option>
+            <option>Microempresa</option>
+            <option>Pequeña Empresa</option>
+            <option>Mediana Empresa</option>
+            <option>Grande Empresa</option>
+            <option>Otro</option>
+        </select>
+
+        <label>Correo Electrónico</label>
+        <input type="email" required>
+
+        <label>Contraseña</label>
+        <input type="password" required>
+
+        <div class="botones">
+            <button type="submit">Registrar</button>
+            <button type="reset">Limpiar</button>
+        </div>
+    </form>
+</body>
+</html>
