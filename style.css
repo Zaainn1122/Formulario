@@ -13,7 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    min-height: 100vh;
 }
 
 .formulario {
@@ -28,7 +27,6 @@ body {
 h2 {
     text-align: center;
     color: #333;
-    margin-bottom: 10px;
 }
 
 label {
@@ -88,4 +86,5 @@ button[type="reset"] {
 
 button:hover {
     opacity: 0.9;
+
 }
